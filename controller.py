@@ -21,6 +21,10 @@ def about():
 @app.route('/test/')
 def test():
     return render_template('test.html')
+
+@app.route('/wwf/')
+def wwf():
+    return render_template('wwf.html')
  
 if __name__ == '__main__':
     try:
